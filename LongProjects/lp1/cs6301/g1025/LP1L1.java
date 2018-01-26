@@ -1,8 +1,4 @@
-/**
- * Class to execute level 1 methods
- *  @author swaroop, saikumar, antriksh, gunjan
- *
- */
+
 package cs6301.g1025;
 
 import cs6301.g00.Timer;
