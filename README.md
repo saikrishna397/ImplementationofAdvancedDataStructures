@@ -3,148 +3,146 @@
 
 This course is all about implementing different advanced data structures and algorithms. <br />
 
-Check each project for detailed description of the Project.
+Check each project for detailed problem description of each project.
 
-### Project Outlines:
-
-
+### Outline:
 
 
-<body>
-<p class="p1"><br></p>
-<table cellspacing="0" cellpadding="0" class="t1">
-  <tbody>
-    <tr>
-      <td valign="top" class="td1">
-        <p class="p2"><span class="s1"><b>Long Projects</b></span></p>
-      </td>
-     
-      <td valign="top" class="td1">
-        <p class="p2"><span class="s1"><b>Title</b></span></p>
-      </td>
-    
-    </tr>
+### Long Projects:
 
-      <tr>
-      <td valign="top" class="td1">
-        <p class="p2"><span class="s1"><b>LP1</b></span></p>
-      </td>
-     
-      <td valign="top" class="td1">
-        <p class="p2"><span class="s1"><b>BigInteger</b></span></p>
-      </td>
-    
-    </tr>
 
-      <tr>
-      <td valign="top" class="td1">
-        <p class="p2"><span class="s1"><b>LP1</b></span></p>
-      </td>
-     
-      <td valign="top" class="td1">
-        <p class="p2"><span class="s1"><b>BigInteger</b></span></p>
-      </td>
-    
-    </tr>
+<table class="t1" cellspacing="0" cellpadding="0">
 
-      <tr>
-      <td valign="top" class="td1">
-        <p class="p2"><span class="s1"><b>LP1</b></span></p>
-      </td>
-     
-      <td valign="top" class="td1">
-        <p class="p2"><span class="s1"><b>BigInteger</b></span></p>
-      </td>
-    
-    </tr>
+<tbody>
 
-      <tr>
-      <td valign="top" class="td1">
-        <p class="p2"><span class="s1"><b>LP1</b></span></p>
-      </td>
-     
-      <td valign="top" class="td1">
-        <p class="p2"><span class="s1"><b>BigInteger</b></span></p>
-      </td>
-    
-    </tr>
+<tr>
 
-      <tr>
-      <td valign="top" class="td1">
-        <p class="p2"><span class="s1"><b>LP2</b></span></p>
-      </td>
-     
-      <td valign="top" class="td1">
-        <p class="p2"><span class="s1"><b>Euler tours in directed graphs</b></span></p>
-      </td>
-    
-    </tr>
+<td class="td1" valign="top">
 
-      <tr>
-      <td valign="top" class="td1">
-        <p class="p2"><span class="s1"><b>LP3</b></span></p>
-      </td>
-     
-      <td valign="top" class="td1">
-        <p class="p2"><span class="s1"><b>Optimal branchings (directed MST) in directed graphs</b></span></p>
-      </td>
-    
-    </tr>
+<span class="s1">**Long Projects**</span>
 
-      <tr>
-      <td valign="top" class="td1">
-        <p class="p2"><span class="s1"><b>LP4</b></span></p>
-      </td>
-     
-      <td valign="top" class="td1">
-        <p class="p2"><span class="s1"><b>Counting and enumeration problems in graphs</b></span></p>
-      </td>
-    
-    </tr>
+</td>
 
-      <tr>
-      <td valign="top" class="td1">
-        <p class="p2"><span class="s1"><b>LP5</b></span></p>
-      </td>
-     
-      <td valign="top" class="td1">
-        <p class="p2"><span class="s1"><b> Skip Lists</b></span></p>
-      </td>
-    
-    </tr>
+<td class="td1" valign="top">
 
-     <tr>
-      <td valign="top" class="td1">
-        <p class="p2"><span class="s1"><b>LP6</b></span></p>
-      </td>
-     
-      <td valign="top" class="td1">
-        <p class="p2"><span class="s1"><b>Multi-dimensional search</b></span></p>
-      </td>
-    
-    </tr>
+<span class="s1">**Title**</span>
 
-     <tr>
-      <td valign="top" class="td1">
-        <p class="p2"><span class="s1"><b>LP7</b></span></p>
-      </td>
-     
-      <td valign="top" class="td1">
-        <p class="p2"><span class="s1"><b>Maximum flow problem (Dinitz's algorithm and Relabel-to-front algorithm)</b></span></p>
-      </td>
-    
-    </tr>
+</td>
 
-    
-    
+</tr>
 
-    
-       </tbody>
+<tr>
+
+<td class="td1" valign="top">
+
+<span class="s1">**LP1**</span>
+
+</td>
+
+<td class="td1" valign="top">
+
+<span class="s1">**BigInteger**</span>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="td1" valign="top">
+
+<span class="s1">**LP2**</span>
+
+</td>
+
+<td class="td1" valign="top">
+
+<span class="s1">**Euler tours in directed graphs**</span>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="td1" valign="top">
+
+<span class="s1">**LP3**</span>
+
+</td>
+
+<td class="td1" valign="top">
+
+<span class="s1">**Optimal branchings (directed MST) in directed graphs**</span>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="td1" valign="top">
+
+<span class="s1">**LP4**</span>
+
+</td>
+
+<td class="td1" valign="top">
+
+<span class="s1">**Counting and enumeration problems in graphs**</span>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="td1" valign="top">
+
+<span class="s1">**LP5**</span>
+
+</td>
+
+<td class="td1" valign="top">
+
+<span class="s1">**Skip Lists**</span>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="td1" valign="top">
+
+<span class="s1">**LP6**</span>
+
+</td>
+
+<td class="td1" valign="top">
+
+<span class="s1">**Multi-dimensional search**</span>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td class="td1" valign="top">
+
+<span class="s1">**LP7**</span>
+
+</td>
+
+<td class="td1" valign="top">
+
+<span class="s1">**Maximum flow problem (Dinitz's algorithm and Relabel-to-front algorithm)**</span>
+
+</td>
+
+</tr>
+
+</tbody>
+
 </table>
-<p class="p3"><br></p>
-</body>
-
-
-
-
-
