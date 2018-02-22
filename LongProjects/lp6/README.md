@@ -1,26 +1,12 @@
 
-CS 6301.502. Implementation of advanced data structures and algorithms
-Fall 2017
-Long Project 6: Multi-dimensional search
-Thu, Nov 9, 2017
+### CS 6301.502. Implementation of advanced data structures and algorithms
 
-Version 1.0: Initial description (Thu, Nov 9).
-
-Due: 1st deadline: 11:59 PM, Sun, Nov 26. Final deadline: 11:59 PM, Sun, Dec 3.
-
-Max marks: 100.  Maximum excellence credit: 10.
-Criteria for allocation of EC: 1st deadline submission, good design,
-good-quality code, correct outputs, fast RT.
-First 15 projects can earn up to 10 EC each.
-Other projects meeting above criteria can earn up to 5 EC.
-
-Implement the following operations.  Starter code is provided.
-Do not change the name of the class or move it away from cs6301/gXX.
-You can keep other source files in subfolders, if you wish to do so.
-Do not change the signatures of public methods in the starter code.
+### Long Project 6: Multi-dimensional search
+### Fall 2017 Thu, Nov 9, 2017
 
 
-Multi-dimensional search: Consider the web site of a seller like Amazon.  
+Multi-dimensional search: 
+ Consider the web site of a seller like Amazon.  
 They carry tens of thousands of products, and each product has many
 attributes (Name, Size, Description, Keywords, Manufacturer, Price, etc.).  
 The search engine allows users to specify attributes of products that
@@ -32,6 +18,7 @@ The solution, called indexing in databases, is to create a new set of
 references to the objects for each search field, and organize them to
 implement search operations on that field efficiently.  As the objects
 change, these access structures have to be kept consistent.
+<br />
 
 We have a set of items available for purchase.  Each item is
 identified by an id (Long), and has a description (one or more Longs).

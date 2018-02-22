@@ -1,14 +1,10 @@
 
-CS 6301.502. Implementation of advanced data structures and algorithms
-Fall 2017
-Long Project 5: Skip Lists
-Thu, Oct 26, 2017
+### CS 6301.502. Implementation of advanced data structures and algorithms
 
-Version 1.0: Initial description (Thu, Oct 26).
+### Long Project 5: Skip Lists
 
-Due: 1st deadline: 11:59 PM, Sun, Nov 5. Final deadline: 11:59 PM, Sun, Nov 19.
 
-Max marks: 100.  Maximum excellence credit: 2 (for rebuild() and get()).
+
 
 Implement the following operations of skip lists.  Starter code is provided.
 Do not change the name of the class or move it away from cs6301/gXX.

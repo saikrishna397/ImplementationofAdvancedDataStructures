@@ -1,26 +1,11 @@
 
-CS 6301.502.  Implementation of advanced data structures and algorithms
-Fall 2017;  Fri, Oct 20.
-Long Project LP4: Counting and enumeration problems in graphs
+### CS 6301.502.  Implementation of advanced data structures and algorithms
+### Fall 2017;  Fri, Oct 20.
+### Long Project LP4: Counting and enumeration problems in graphs
 
-Ver 1.0: Initial description (Fri, Oct 20).
-Ver 1.1: Part f: output has to be a simple cycle (Mon, Nov 6).
 
-Due: 11:59 PM, Sun, Nov 12 (1st deadline), Sun, Nov 19 (2nd deadline).
 
-Max score: 200.  Max excellence credits: 10.
-
-Initial code base: ArrayIterator, Graph, GraphAlgorithm, XGraph, LP4, Timer
-You can also use code from other examples shown by the instructor.
-Starter code for project is provided.  Do not change the driver programs,
-except for replacing g00 by your group number.
-
-* Submit before the first deadline to be eligible for excellence credit. 
-* For each group, only its last submission is kept and earlier submissions are discarded. 
-* Your code must be of good quality, and pass all test cases to earn excellence credits.
-* All groups satisfying above conditions will be assigned excellence credits.
-
-Project Description:
+#### Project Description:
 
 ____________________________________________________________________
 Max Score for Parts a+b: 50.  Max EC: 2.
