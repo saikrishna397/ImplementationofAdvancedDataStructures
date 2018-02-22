@@ -3,7 +3,7 @@
 
 This course is all about implementing different advanced data structures and algorithms. <br />
 
-Check each project for detailed problem description of each project.
+Please check Readme in each project for detailed problem description.
 
 ### Outline:
 
