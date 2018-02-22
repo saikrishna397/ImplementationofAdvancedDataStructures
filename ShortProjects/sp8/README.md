@@ -1,73 +1,62 @@
 
 ### CS 6301.502. Implementation of advanced data structures and algorithms
-### Fall 2017
-### Short Project 3: DFS and its applicationsFri, Sep 8, 2017
 
- 1. [30 points]
-   Topological ordering of a DAG.
-   Implement two algorithms for ordering the nodes of a DAG topologically.  
-   Both algoritms should return null if the given graph is not a DAG.
-
-   /** Algorithm 1. Remove vertices with no incoming edges, one at a
-    *  time, along with their incident edges, and add them to a list.
-    */
-   List<Graph.Vertex> toplogicalOrder1(Graph g) { ... }
-
-   /** Algorithm 2. Run DFS on g and add nodes to the front of the output list,
-    *  in the order in which they finish.  Try to write code without using global variables.
-    */
-   List<Graph.Vertex> toplogicalOrder2(Graph g) { ... }
+### Short Project 8: Shortest paths, Enumeration
+###  Fall 2017 Fri, Oct 20, 2017
 
 
-2. [30 points]
-   Strongly connected components of a directed graph.  Implement the
-   algorithm for finding strongly connected components of a directed
-   graph (see page 617 of Cormen et al, Introduction to algorithms,
-   3rd ed.).  Run DFS on G and create a list of nodes in decreasing
-   finish time order.  Find G^T, the graph obtained by reversing all
-   edges of G.  Note that the Graph class has a field revAdj that is
-   useful for this purpose.  Run DFS on G^T, but using the order of
-   the list output by the first DFS.  Each DSF tree in the second DFS
-   is a strongly connected component.
+Create a ShortestPath class for all the shortest path algorithms.  The
+following constructor is common to all algorithms: <br  />
+	ShortestPath(Graph g, Vertex s)
+It initializes the class fields, with s as the source node for
+shortest paths.  The following methods in Q1-6 are the public methods
+of the ShortestPath class.
 
-   int stronglyConnectedComponents(Graph g) { ... }
-   Each node is marked with a component number, and the function returns
-   the number of strongly connected components of G.
+1. [20 points]  Implement BFS:
+	public void bfs() { ... }
 
-
-3. [30 points]
-   Is a given directed graph Eulerian?
-
-   A directed graph G is called Eulerian if it is strongly connected
-   and the in-degree of every vertex is equal to its out-degree.  It
-   is known that such graphs have a tour (cycle that may not be
-   simple) that goes through every edge of the graph exactly once.
-   Write a function that tests whether a given graph is Eulerian.
-   Your algorithm need not find an Euler tour of the graph.
-
-   boolean testEulerian(Graph g) { ... }
-
-
-4. [20 points]
-   Is a given directed graph a DAG (directed, acyclic graph)?
-   Solve the problem by running DFS on the given graph, and checking
-   if there are any back edges.
-
-   boolean isDAG(Graph g) { ... }
-
-
-5. [50 points]
-   For a connected, undirected graph G=(V,E), an edge e in E is
-   called a bridge if the removal of e from G breaks the graph into 2
-   components.  A vertex u in V is called a cut vertex if the removal
-   of u, along with its incident edges from G breaks it into 2 or more
-   components.  The problem of finding bridges and cut vertices of a
-   given graph will be discussed in class (see also Problem 22-2 in
-   Cormen et al's Introduction to Algorithms, 3rd ed).
-
-   /** Find bridges and cut vertices of an undirected graph g.  Assume that g is connected.
-    *  The list of bridges of g is returned by the function.  Cut vertices are marked
-    *  by setting to true a boolean field "cut" defined for each vertex.
-    */
-   List<Graph.Edge> findBridgeCut(Graph g) { ... }
+2. [20 points]  Implement DAG shortest paths:
+	public void dagShortestPaths() { ... }
+   Implement this algorithm without duplicating the DFS code for
+   finding topological order into the ShortestPath class.
+   Reuse your DFS code from previous projects.
    
+3. [20 points]  Implement Dijkstra's algorithm, reusing your code for Indexed heaps:
+	public void dijkstra() { ... }
+   
+
+4. [20 points]  Implement Bellman-Ford algorithm:
+	public boolean bellmanFord() { ... }
+
+5. [30 points]
+   Given a graph, apply the fastest algorithm for shortest paths on
+   the given graph.  If all edges of G have the same positive weight,
+   apply BFS.  Otherwise, if G is a DAG, apply DAG-shortest-paths
+   algorithm.  Otherwise, if G has no negative-weight edges, then
+   apply Dijkstra's algorithm.  Otherwise, call Bellman-Ford
+   algorithm.  If the problem is not solvable because the graph has a
+   negative cycle, return false.
+   	public boolean fastestShortestPaths() { ... }
+
+6. [30 points]
+   Use the BFS implementation in Q1 to find an odd-length cycle in a
+   given non-bipartite graph.  Given a graph, find an odd-length cycle
+   and return it.  If the graph is bipartite, return null.
+   Do not merge this algorithm into BFS code.  Write code that uses
+   output of BFS and finds an odd-length cycle.  Make sure that the
+   edges of the cycle are in proper order.
+	public List<Edge> findOddCycle() { ... }
+
+7. [20 points]
+   Implement permutation and combination algorithms nPk and nCk.
+   Use a VERBOSE flag to decide if the output is just the number
+   of permutations or combinations visited (VERBOSE = 0), or, a
+   complete listing.
+
+8. [20 points]
+   Implement Knuth's L algorithm.
+
+9. [20 points]
+   Implement non-recursive version of Heap's algorithm for generating
+   all n! permutations.  See Wikipedia page for the algorithm.
+   https://en.wikipedia.org/wiki/Heap%27s_algorithm

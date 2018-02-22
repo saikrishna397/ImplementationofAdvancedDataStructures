@@ -1,73 +1,59 @@
 
-### CS 6301.502. Implementation of advanced data structures and algorithms
-### Fall 2017
-### Short Project 3: DFS and its applicationsFri, Sep 8, 2017
+CS 6301.502. Implementation of advanced data structures and algorithms
+Fall 2017
+Short Project 6: Priority queues and their applications, HuffmanCoding, Prims algorithms, BinaryHeap, Indexed Heap
+Fri, Sep 29, 2017
 
- 1. [30 points]
-   Topological ordering of a DAG.
-   Implement two algorithms for ordering the nodes of a DAG topologically.  
-   Both algoritms should return null if the given graph is not a DAG.
+Version 1.0: Initial description (Fri, Sep 29).
 
-   /** Algorithm 1. Remove vertices with no incoming edges, one at a
-    *  time, along with their incident edges, and add them to a list.
-    */
-   List<Graph.Vertex> toplogicalOrder1(Graph g) { ... }
+Due: 11:59 PM, Sun, Oct 8.
 
-   /** Algorithm 2. Run DFS on g and add nodes to the front of the output list,
-    *  in the order in which they finish.  Try to write code without using global variables.
-    */
-   List<Graph.Vertex> toplogicalOrder2(Graph g) { ... }
+### ### For Q1-Q4, use Java's PriorityQueue.
 
+1. [30 points]
+   Sort an array using k-way merge (normally used for external sorting):
+   Split the array A into k fragments, sort them recursively, and merge them
+   using a priority queue (of size k).
+   [In external sorting applications, intermediate sorted subarrays are
+    written to disk.  The algorithm sorts A by using buffers of size O(k).]
 
 2. [30 points]
-   Strongly connected components of a directed graph.  Implement the
-   algorithm for finding strongly connected components of a directed
-   graph (see page 617 of Cormen et al, Introduction to algorithms,
-   3rd ed.).  Run DFS on G and create a list of nodes in decreasing
-   finish time order.  Find G^T, the graph obtained by reversing all
-   edges of G.  Note that the Graph class has a field revAdj that is
-   useful for this purpose.  Run DFS on G^T, but using the order of
-   the list output by the first DFS.  Each DSF tree in the second DFS
-   is a strongly connected component.
+   Implement Huffman Coding algorithm.  Create a class for representing coding
+   trees.  Use a priority queue to hold the trees.  In each step, the algorithm
+   removes two trees with the smallest frequencies, merges them, and inserts it
+   back into the priority queue.  At the end, there is a single coding tree. 
+   Traverse the tree and output the binary codes for each symbol.
 
-   int stronglyConnectedComponents(Graph g) { ... }
-   Each node is marked with a component number, and the function returns
-   the number of strongly connected components of G.
-
-
-3. [30 points]
-   Is a given directed graph Eulerian?
-
-   A directed graph G is called Eulerian if it is strongly connected
-   and the in-degree of every vertex is equal to its out-degree.  It
-   is known that such graphs have a tour (cycle that may not be
-   simple) that goes through every edge of the graph exactly once.
-   Write a function that tests whether a given graph is Eulerian.
-   Your algorithm need not find an Euler tour of the graph.
-
-   boolean testEulerian(Graph g) { ... }
-
+3. [20 points]
+   Perfect powers: Write an algorithm to output exact powers (numbers of the
+   form a^b, b>1), in the range 2 to n. 
+   Given an array of prime numbers, output numbers in [2,n] all of whose
+   prime factors are only from the given set of prime numbers.
+   For example, given {3,7}, the program outputs {3,7,9,21,27,49,63,...}.
+   Make sure that your program outputs each number only once, in sorted order.
 
 4. [20 points]
-   Is a given directed graph a DAG (directed, acyclic graph)?
-   Solve the problem by running DFS on the given graph, and checking
-   if there are any back edges.
+   Implement Prim's algorithm for MST using priority queue of edges (Prim1).
+   Starter code is provided.
 
-   boolean isDAG(Graph g) { ... }
+5. [30 points]
+   Implement binary heap and heap sort.  Starter code is provided.
+   Include in your submission, a driver that uses heap sort to sort an array
+   in ascending order, and then in descending order.
 
+6. [30 points] (Solving Q6 requires that you do Q5 also.)
+   Extend binary heaps to indexed binary heaps.  Implement Prim's algorithm
+   for MST using indexed heaps of vertices (Prim2).  Starter code is provided.
 
-5. [50 points]
-   For a connected, undirected graph G=(V,E), an edge e in E is
-   called a bridge if the removal of e from G breaks the graph into 2
-   components.  A vertex u in V is called a cut vertex if the removal
-   of u, along with its incident edges from G breaks it into 2 or more
-   components.  The problem of finding bridges and cut vertices of a
-   given graph will be discussed in class (see also Problem 22-2 in
-   Cormen et al's Introduction to Algorithms, 3rd ed).
+7. [30 points]
+   Implement Kruskal's algorithm for MST.  Implement the disjoint set ADT
+   as a separate class that can be used in other applications.
 
-   /** Find bridges and cut vertices of an undirected graph g.  Assume that g is connected.
-    *  The list of bridges of g is returned by the function.  Cut vertices are marked
-    *  by setting to true a boolean field "cut" defined for each vertex.
-    */
-   List<Graph.Edge> findBridgeCut(Graph g) { ... }
-   
+8. [20 points]
+   Compare the running times of the following two algorithms for the problem of
+   finding the k largest elements of a stream:
+   (a) Use Java's priority queue to keep track of the k largest elements seen
+   (b) Use your priority queue implementation (problem 5) using the replace()
+       operation in that implementation, instead of delete+add to update PQ.
+   Try large inputs that are randomly ordered and other inputs in increasing order.
+

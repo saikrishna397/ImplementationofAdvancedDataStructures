@@ -1,7 +1,8 @@
 
 ### CS 6301.502. Implementation of advanced data structures and algorithms
 ### Fall 2017
-### Short Project 3: DFS and its applicationsFri, Sep 8, 2017
+### Short Project 3: DFS and its applications <br />
+ Fri, Sep 8, 2017
 
  1. [30 points]
    Topological ordering of a DAG.
