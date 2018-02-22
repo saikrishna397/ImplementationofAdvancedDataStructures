@@ -1,7 +1,7 @@
 
 ### CS 6301.502. Implementation of advanced data structures and algorithms
 ### Fall 2017
-### Short Project 1: Sorting, BFS.
+### Short Project 1: Merge Sort on Generic arrays and Diameter of Tree
 ### Wed, Aug 23, 2017
 
 
