@@ -6,6 +6,6 @@
 ### Long Project 7: Maximum flow problem (Dinitz's algorithm and Relabel-to-front algorithm)
 
 
-Part a. Implement Dinitz's algorithm for maximum flow. <br/ >
+Part a. Implement Dinitz's algorithm for maximum flow. <br  />
 
 Part b. Implement Relabel-to-front algorithm for maximum flow.
