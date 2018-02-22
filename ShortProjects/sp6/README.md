@@ -1,8 +1,7 @@
 
-CS 6301.502. Implementation of advanced data structures and algorithms
-Fall 2017
-Short Project 6: Priority queues and their applications, HuffmanCoding, Prims algorithms, BinaryHeap, Indexed Heap
-Fri, Sep 29, 2017
+### CS 6301.502. Implementation of advanced data structures and algorithms
+### Short Project 6: Priority queues and their applications, HuffmanCoding, Prims algorithms, BinaryHeap, Indexed Heap
+### Fall 2017 Fri, Sep 29, 2017
 
 Version 1.0: Initial description (Fri, Sep 29).
 

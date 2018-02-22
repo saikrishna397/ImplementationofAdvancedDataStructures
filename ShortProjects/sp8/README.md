@@ -1,7 +1,7 @@
 
 ### CS 6301.502. Implementation of advanced data structures and algorithms
 
-### Short Project 8: Shortest paths, Enumeration
+### Short Project 8: Shortest paths, Enumeration Permutations and Combinations
 ###  Fall 2017 Fri, Oct 20, 2017
 
 
