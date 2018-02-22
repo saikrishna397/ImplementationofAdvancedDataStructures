@@ -215,7 +215,7 @@ Check each project for detailed problem description of each project.
 
 <td class="td1" valign="top">
 
-<span class="s1">**DFS and its applications **</span>
+<span class="s1">**DFS and its applications**</span>
 
 </td>
 
