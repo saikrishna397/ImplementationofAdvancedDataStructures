@@ -13,33 +13,27 @@ Implement the algorithm discussed in class for finding minimum spanning trees in
 Your submission can get up to 10 excellence credits, if your code is one of the first 15 groups that submit good quality code before the first deadline, that correctly solves the problem, and passes all test inputs. An important criterion that will be used in judging quality is whether your solution is able to use standard algorithms for graph problems, such as DFS as-is, without rewriting them specially for this algorithm. Other aspects of quality such as OOP techniques, organization of objects and code, transparency of code, etc. will also be used. Programs selected for EC will also have to complete their runs successfully, within a timeout period. The best programs will complete within 10% of the allotted time.
 
 Input:
-1<br\>
-5 7<br\>
-1 5 8 <br\>
+1  <br />
+5 7 <br />
+1 5 8  <br />
 
-1 4 7<br\>
+1 4 7 <br />
+1 3 6 <br />
+4 3 3 <br />
+3 5 6 <br />
 
-1 3 6<br\>
-
-4 3 3<br\>
-
-3 5 6<br\>
-
-5 3 2<br\>
-
-5 2 1<br\>
+5 3 2 <br />
+5 2 1 <br />
 
 
 #### Output:
-17 <br\>
+17 <br />
 
-Additional lines of output with VERBOSE=1:<br\>
+Additional lines of output with VERBOSE=1:<br />
 
-_________________________<br\>
-
-null(5,2)(4,3)(1,4)(3,5)<br\>
-
-_________________________<br\>
+_________________________<br />
+null(5,2)(4,3)(1,4)(3,5)<br />
+_________________________<br />
 
 
 
