@@ -1,8 +1,8 @@
 
 <PRE>
-CS 6301.502.  Implementation of advanced data structures and algorithms
-Fall 2017;  Wed, Sep 20.
-Long Project LP2: Euler tours in directed graphs
+### CS 6301.502.  Implementation of advanced data structures and algorithms
+### Fall 2017;  Wed, Sep 20.
+### Long Project LP2: Euler tours in directed graphs
 
 Ver 1.0: Initial description (Wed, Sep 20).
 
